@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LimTube from "../img/logo.png";
 
 const Container = styled.div`
   flex: 1;
@@ -12,10 +13,25 @@ const Wrapper = styled.div`
   padding: 18px 26px;
 `;
 
+const Logo = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+`;
+
+const Img = styled.img`
+  height: 25px;
+`;
+
 export const Menu = () => {
   return (
     <Container>
-      <Wrapper>items</Wrapper>
+      <Wrapper>
+        <Logo>
+          <Img src={LimTube} />
+          Limtube
+        </Logo>
+      </Wrapper>
     </Container>
   );
 };
