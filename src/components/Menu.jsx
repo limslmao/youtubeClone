@@ -17,10 +17,19 @@ const Logo = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
+  font-weight: bold;
+  margin-bottom: 25px;
 `;
 
 const Img = styled.img`
   height: 25px;
+`;
+
+const Item = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
 `;
 
 export const Menu = () => {
@@ -29,8 +38,9 @@ export const Menu = () => {
       <Wrapper>
         <Logo>
           <Img src={LimTube} />
-          Limtube
+          LimTube
         </Logo>
+        <Item>Home</Item>
       </Wrapper>
     </Container>
   );
