@@ -72,6 +72,13 @@ const Button = styled.button`
   gap: 5px;
 `;
 
+const Title = styled.h2`
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+`;
+
 export const Menu = ({ darkMode, setDarkMode }) => {
   return (
     <Container>
@@ -110,6 +117,7 @@ export const Menu = ({ darkMode, setDarkMode }) => {
           </Button>
         </Login>
         <Hr />
+        <Title>BEST OF LIMTUBE</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music
@@ -147,7 +155,7 @@ export const Menu = ({ darkMode, setDarkMode }) => {
           <HelpOutlineOutlinedIcon />
           Help
         </Item>
-        <Item>
+        <Item onClick={() => setDarkMode(!darkMode)}>
           <SettingsBrightnessOutlinedIcon />
           Light Mode
         </Item>
