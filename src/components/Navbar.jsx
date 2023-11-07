@@ -3,8 +3,18 @@ import styled from "styled-components";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import SearchOutLinedIcon from "@mui/icons-material/SearchOutlined";
 
-const Container = styled.div``;
-const Wrapper = styled.div``;
+const Container = styled.div`
+  position: sticky;
+  top: 0;
+  background-color: #${({ theme }) => theme.bgLighter};
+  height: 56px;
+`;
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 20px;
+`;
 const Search = styled.div``;
 const Input = styled.input``;
 const Button = styled.button`
