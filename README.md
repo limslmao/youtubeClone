@@ -13,12 +13,13 @@ This project is a YouTube clone built with React, created for learning and educa
 
 To run this project locally, follow these steps:
 
-\`\`\`bash
+```bash
 git clone https://github.com/limslmao/youtubeClone.git
 cd youtubeClone
 yarn install
 yarn start
-\`\`\`
+```
+
 
 ## Contributing
 
