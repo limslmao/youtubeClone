@@ -1,6 +1,6 @@
 # YoutubeClone
 
-This project is a YouTube clone built with React, created for learning and educational purposes. The project was clone from [Lama Dev's tutorials](https://www.youtube.com/watch?v=yIaXoop8gl4&t=1462s).
+This project is a YouTube clone built with React, created for learning purposes. The project was clone from [Lama Dev's tutorials](https://www.youtube.com/watch?v=yIaXoop8gl4&t=1462s).
 
 ## Features
 
@@ -19,7 +19,6 @@ cd youtubeClone
 yarn install
 yarn start
 ```
-
 
 ## Contributing
 
