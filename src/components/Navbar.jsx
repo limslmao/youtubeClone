@@ -15,9 +15,27 @@ const Wrapper = styled.div`
   justify-content: flex-end;
   height: 100%;
   padding: 0px 20px;
+  position: relative;
 `;
-const Search = styled.div``;
-const Input = styled.input``;
+const Search = styled.div`
+  width: 40%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+`;
+
+const Input = styled.input`
+  border: none;
+  background-color: transparent;
+`;
+
 const Button = styled.button`
   padding: 5px 15px;
   border-color: transparent;
@@ -25,7 +43,6 @@ const Button = styled.button`
   color: #3ea6ff;
   border-radius: 3px;
   font-weight: 500;
-  margin-top: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
