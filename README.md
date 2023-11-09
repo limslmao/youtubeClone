@@ -1,13 +1,11 @@
 # YoutubeClone
 
-This project is a YouTube clone built with React, created for learning and educational purposes. The project was inspired by Lama Dev's tutorials.
+This project is a YouTube clone built with React, created for learning and educational purposes. The project was clone from [Lama Dev's tutorials](https://www.youtube.com/watch?v=yIaXoop8gl4&t=1462s).
 
 ## Features
 
 - Video browsing
 - Viewing comments
-
-*Planned features for future updates:*
 - Video uploads
 - User authentication
 
@@ -16,8 +14,8 @@ This project is a YouTube clone built with React, created for learning and educa
 To run this project locally, follow these steps:
 
 \`\`\`bash
-git clone https://your-github-repo-link
-cd YoutubeClone
+git clone https://github.com/limslmao/youtubeClone.git
+cd youtubeClone
 yarn install
 yarn start
 \`\`\`
@@ -28,8 +26,4 @@ If you have suggestions for improvements or would like to contribute code, feel 
 
 ## Contact
 
-If you have any questions, please reach out to me at [sunglim.mao@gmail.com](mailto:sunglim.mao@gmail.com).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE-file-path) file for details.
+If you have any questions, contact me at [sunglim.mao@gmail.com](mailto:sunglim.mao@gmail.com).
