@@ -4,10 +4,11 @@ This project is a YouTube clone built with React, created for learning purposes.
 
 ## Features
 
-- Video browsing
-- Viewing comments
-- Video uploads
-- User authentication
+- Video Browsing
+- Video Comments
+- Login Page
+- Switch pages with routing
+- Page themes: Black and White
 
 ## Local Installation
 
